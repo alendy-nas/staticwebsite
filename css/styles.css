@@ -11732,3 +11732,53 @@ html {
     left: -2vw;
   }
 }
+
+.bg-gradient-primary-to-secondary {
+  background: linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.profile .dots-2 svg,
+.profile .dots-4 svg {
+  fill: #10b981 !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: #10b981 !important;
+  --bs-btn-border-color: #10b981 !important;
+  --bs-btn-hover-bg: #0f9f70 !important;
+  --bs-btn-hover-border-color: #0f9f70 !important;
+  --bs-btn-active-bg: #0f9f70 !important;
+  --bs-btn-active-border-color: #0f9f70 !important;
+}
+  
+}
+
+.bg-gradient-primary-to-secondary {
+  background: linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.profile .dots-2 svg,
+.profile .dots-4 svg {
+  fill: #10b981 !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: #10b981 !important;
+  --bs-btn-border-color: #10b981 !important;
+  --bs-btn-hover-bg: #0f9f70 !important;
+  --bs-btn-hover-border-color: #0f9f70 !important;
+  --bs-btn-active-bg: #0f9f70 !important;
+  --bs-btn-active-border-color: #0f9f70 !important;
+}
