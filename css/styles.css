@@ -11555,12 +11555,11 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(135deg, #10b981 0%, #1f2937 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(135deg, #10b981 0%, #1f2937 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11595,41 +11594,35 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
-.profile .dots-1 {
-  position: absolute;
-  width: 3vw;
-  right: 1.5vw;
-  top: 4vw;
-}
-.profile .dots-1 svg {
-  fill: #fff;
-}
-.profile .dots-2 {
-  position: absolute;
-  width: 3vw;
-  right: -4vw;
-  top: 6.05vw;
-}
-.profile .dots-2 svg {
-  fill: #1e30f3;
-}
-.profile .dots-3 {
-  position: absolute;
-  width: 3vw;
-  left: 1.5vw;
-  bottom: 6.05vw;
-}
-.profile .dots-3 svg {
-  fill: #fff;
-}
+.profile .dots-1,
+.profile .dots-2,
+.profile .dots-3,
 .profile .dots-4 {
   position: absolute;
-  width: 3vw;
-  left: -4vw;
-  bottom: 4vw;
 }
-.profile .dots-4 svg {
-  fill: #1e30f3;
+.profile .dots-1 {
+  color: #1f2937;
+  top: 4vw;
+  left: 1.5vw;
+  width: 3vw;
+}
+.profile .dots-2 {
+  color: #10b981;
+  top: 6.05vw;
+  left: -4vw;
+  width: 3vw;
+}
+.profile .dots-3 {
+  color: #1f2937;
+  bottom: 6.05vw;
+  right: 1.5vw;
+  width: 3vw;
+}
+.profile .dots-4 {
+  color: #10b981;
+  bottom: 4vw;
+  right: -4vw;
+  width: 3vw;
 }
 
 @media (min-width: 576px) {
@@ -11642,21 +11635,22 @@ html {
   }
   .profile .dots-1 {
     width: 3vw;
-    right: 1.5vw;
+    left: 1vw;
   }
   .profile .dots-2 {
     width: 3vw;
-    right: -4vw;
+    left: -3vw;
   }
   .profile .dots-3 {
     width: 3vw;
-    left: 1.5vw;
+    right: 1vw;
   }
   .profile .dots-4 {
     width: 3vw;
-    left: -4vw;
+    right: -3vw;
   }
 }
+
 @media (min-width: 768px) {
   .profile {
     height: 50vw;
@@ -11666,22 +11660,19 @@ html {
     height: 55vw;
   }
   .profile .dots-1 {
-    width: 3vw;
-    right: 1.5vw;
+    width: 2vw;
   }
   .profile .dots-2 {
-    width: 3vw;
-    right: -4vw;
+    width: 2vw;
   }
   .profile .dots-3 {
-    width: 3vw;
-    left: 1.5vw;
+    width: 2vw;
   }
   .profile .dots-4 {
-    width: 3vw;
-    left: -4vw;
+    width: 2vw;
   }
 }
+
 @media (min-width: 992px) {
   .profile {
     height: 40vw;
@@ -11692,21 +11683,18 @@ html {
   }
   .profile .dots-1 {
     width: 1.5vw;
-    right: 0.75vw;
   }
   .profile .dots-2 {
     width: 1.5vw;
-    right: -2vw;
   }
   .profile .dots-3 {
     width: 1.5vw;
-    left: 0.75vw;
   }
   .profile .dots-4 {
     width: 1.5vw;
-    left: -2vw;
   }
 }
+
 @media (min-width: 1200px) {
   .profile {
     height: 35vw;
@@ -11733,52 +11721,11 @@ html {
   }
 }
 
-.bg-gradient-primary-to-secondary {
-  background: linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
-}
-
-.text-gradient {
-  background: -webkit-linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-}
-
-.profile .dots-2 svg,
-.profile .dots-4 svg {
-  fill: #10b981 !important;
-}
-
 .btn-primary {
-  --bs-btn-bg: #10b981 !important;
-  --bs-btn-border-color: #10b981 !important;
-  --bs-btn-hover-bg: #0f9f70 !important;
-  --bs-btn-hover-border-color: #0f9f70 !important;
-  --bs-btn-active-bg: #0f9f70 !important;
-  --bs-btn-active-border-color: #0f9f70 !important;
-}
-  
-}
-
-.bg-gradient-primary-to-secondary {
-  background: linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
-}
-
-.text-gradient {
-  background: -webkit-linear-gradient(135deg, #10b981 0%, #1f2937 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-}
-
-.profile .dots-2 svg,
-.profile .dots-4 svg {
-  fill: #10b981 !important;
-}
-
-.btn-primary {
-  --bs-btn-bg: #10b981 !important;
-  --bs-btn-border-color: #10b981 !important;
-  --bs-btn-hover-bg: #0f9f70 !important;
-  --bs-btn-hover-border-color: #0f9f70 !important;
-  --bs-btn-active-bg: #0f9f70 !important;
-  --bs-btn-active-border-color: #0f9f70 !important;
+  --bs-btn-bg: #10b981;
+  --bs-btn-border-color: #10b981;
+  --bs-btn-hover-bg: #0f9f70;
+  --bs-btn-hover-border-color: #0f9f70;
+  --bs-btn-active-bg: #0f9f70;
+  --bs-btn-active-border-color: #0f9f70;
 }
